@@ -1,4 +1,18 @@
-# URL Shortener API
+# Создать пользователя
+curl -X POST http://localhost:3000/api/v1/users \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Анна",
+    "email": "anna@example.com"
+  }'
+# Удалить ссылку
+curl -X DELETE http://localhost:3000/api/v1/links/asdasd
+# Обновить ссылку
+curl -X PUT http://localhost:3000/api/v1/links/asdasd \
+  -H "Content-Type: application/json" \
+  -d '{
+    "original_url": "https://new-example.com"
+  }'# URL Shortener API
 
 RESTful API для управления сокращёнными ссылками и пользователями.
 
