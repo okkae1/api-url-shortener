@@ -1,0 +1,16 @@
+[
+  {
+    "id": "link_1762270122182412200",
+    "original_url": "https://example.com",
+    "short_code": "asdasd",
+    "user_id": "anonymous",
+    "created_at": "2025-11-04T18:28:42.1824122+03:00"
+  },
+  {
+    "id": "link_1762270189774879000",
+    "original_url": "https://examplSD.com",
+    "short_code": "asdasdadsd",
+    "user_id": "anonymous",
+    "created_at": "2025-11-04T18:29:49.774879+03:00"
+  }
+]
